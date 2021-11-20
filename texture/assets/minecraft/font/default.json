@@ -1,0 +1,74 @@
+{
+  "providers":[
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/poggers.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/peepoHappy.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/monkaW.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE002"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/3Head.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE003"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/heart.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE004"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/KEKW.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE005"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/Sadge.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE006"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/OMEGALUL.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE007"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/monkaS.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE008"]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/PepeHands.png",
+      "ascent": 9,
+      "height": 9,
+      "chars": ["\uE009"]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+name: TtvChat
+version: '${project.version}'
+main: me.jm.ttvchat.ttvchat.TtvChat
+api-version: 1.17
+authors: [ J_M ]
+commands:
+  listEmotes:
+    description: lists avaiable emotes
+    usage: /listEmotes [page]
+    permission: ttvChat.listEmotes
