@@ -6,6 +6,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.permissions.Permission;
 
 public class PlayerChatListener implements Listener {
 
@@ -13,9 +14,12 @@ public class PlayerChatListener implements Listener {
 
     @EventHandler
     void AsyncPlayerChatEvent(AsyncPlayerChatEvent e){
-       String msg = e.getMessage();
-       String _msg = CheckForEmotes(msg);
-       e.setMessage(_msg);
+        Player player = e.getPlayer();
+        if (player.hasPermission("ttvChat.useEmotes")){
+            String msg = e.getMessage();
+            String _msg = CheckForEmotes(msg);
+            e.setMessage(_msg);
+        }
     }
 
     String CheckForEmotes(String msg){
@@ -25,6 +29,7 @@ public class PlayerChatListener implements Listener {
                 int id = 0xE000 + i;
                 char emoteFontId = (char)id;
                 msg = msg.replace(_emotes1[i], "" + emoteFontId);
+
             }
         }
         return msg;
