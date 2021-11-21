@@ -24,5 +24,5 @@ Report it [here](https://github.com/antoKeinanen/ttvChatPlugin/issues/new?assign
 ![emotes in game](https://user-images.githubusercontent.com/62938747/142729878-714600b6-2a49-4d88-bc04-5aba819b4d1a.png)
 
 ## License
-### Credits is not necessary but appreciated :)
+### Crediting is not necessary but appreciated :)
 [mit](https://choosealicense.com/licenses/mit/)
