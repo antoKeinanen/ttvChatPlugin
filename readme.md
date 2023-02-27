@@ -1,4 +1,4 @@
-#TTV chat emotes plugin
+# TTV chat emotes plugin
 ## Installation
 - put the .jar file into plugins folder
 - add ttvChatTexture.zip to server.properties [guide](https://www.youtube.com/watch?v=rjBJD1caRlA)
